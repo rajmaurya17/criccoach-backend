@@ -1,5 +1,1 @@
-# Build TypeScript
-npm run build
-
-# Start the compiled server
-node dist/server.js
+web: npm run build && node dist/server.js
