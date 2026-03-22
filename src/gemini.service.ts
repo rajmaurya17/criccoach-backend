@@ -117,13 +117,17 @@ SYSTEM SAFETY CONSTRAINTS:
 
 ---
 
+CRITICAL FORMATTING INSTRUCTIONS:
+- Each field MUST be extremely short, direct, and punchy.
+- Absolutely MAX 15 to 20 words per response field. Do NOT exceed this.
+
 RESPOND IN THIS EXACT JSON FORMAT (no markdown, no code blocks, raw JSON only):
 {
-  "training": "2-3 sentence specific training plan for today based on the athlete's readiness and goal",
-  "rehab": "2-3 sentence targeted rehab/recovery advice based on pain areas and injuries",
-  "nutrition": "2-3 sentence nutrition advice tailored to training intensity and diet preference",
-  "why_changed": "1-2 sentences explaining why today's plan differs from a standard session (reference readiness/pain)",
-  "caution": "1 short sentence safety warning or motivational note"
+  "training": "Ultra-short specific training plan max 20 words",
+  "rehab": "Ultra-short rehab advice max 20 words",
+  "nutrition": "Ultra-short nutrition advice max 20 words",
+  "why_changed": "Ultra-short explanation max 20 words",
+  "caution": "Ultra-short safety warning max 10 words"
 }
 `.trim();
   }
